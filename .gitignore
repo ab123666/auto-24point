@@ -1,0 +1,25 @@
+# 编译产物
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.exp
+*.idb
+*.map
+build/
+out/
+
+# 运行时依赖（体积 60MB+，请自行安装 OpenCV 4.8.1 并把 dll 放到 exe 目录）
+opencv_world*.dll
+
+# 测试运行产生的临时配置
+tests/cfg_rt.json
+tests/cfg_old.json
+
+# 编辑器 / 系统
+.vs/
+.vscode/
+*.user
+*.suo
+Thumbs.db
+desktop.ini
